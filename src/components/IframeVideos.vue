@@ -59,7 +59,6 @@ export default {
 .iframe-extend{
     height: 475px;
     width: 845px;
-
 }
 
 iframe, img{
