@@ -22,13 +22,14 @@ export default {
 <template>
     <!-- Contenitore per iframe video-->
     <div class="iframe-wrapper">
-        <!-- Contenitore per gestire effetti ed animazione su img e bottone -->
+        <!-- Contenitore per gestire effetti ed animazione su immagine di cover e di bottone YT -->
         <div class="overlay">
             <img id="cover-image" v-if="this.cover" @click="playVideo" src="https://maxcoach-4437.kxcdn.com/main/wp-content/uploads/sites/1/2019/12/home-2-popup-video-poster.jpg" alt="">
             <div class="yt-button" v-if="this.cover" @click="playVideo">
                 <img src="https://maxcoach-4437.kxcdn.com/main/wp-content/uploads/sites/1/2019/11/icon-youtube-play.png" alt="">
             </div>
         </div>
+        <!-- Iframe per mostrare il video youtube con metodi e animazioni-->
         <iframe v-if="showVideo" @mouseleave="hideVideo"
         width="670" 
         height="450" 
