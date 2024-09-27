@@ -70,7 +70,7 @@ export default {
                            <p>Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some hidden hints of early-bird rewards as well.</p>
                        </div>
                    </div>
-                   <div id="right-link-wrapper" class="w-100 d-flex justify-content-start">
+                   <div id="right-link-wrapper" class="w-100 d-flex justify-content-center">
                        <a href="#">
                            <p>Download free guidebook</p>
                        </a>
@@ -132,19 +132,14 @@ iframe, img{
 .right-page{
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    text-align: left;
 }
 
 mark{
     background-color: transparent;
-    margin: 0;
-    padding: 0;
 }
 
 .section-iframe-right #right-preTitle{
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -157,8 +152,6 @@ mark{
 }
 
 #right-title-wrapper .title h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
     font-size: 48px;
     color: #3F3A64;
 }
@@ -170,16 +163,12 @@ mark{
 }
 
 #right-description-wrapper .text{
+    margin-top: 23px;
     font-size: 18px;
     text-align: left;
 }
 
-.text p{
-    font-family: 'Roboto';
-    margin-top: 25px;
-    margin-bottom: 58px;
-    color: rgb(116, 116, 116);
-}
+.text p{}
 
 #right-link-wrapper a p{
     padding-bottom: 1px;
